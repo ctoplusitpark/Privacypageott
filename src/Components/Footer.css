@@ -6,7 +6,10 @@
     color: honeydew;
     padding: 20px;
   }
-  
+  .Footer a{
+    color:honeydew;
+    text-decoration: none;
+  }
   .footer-appName{
     font-size: 35px;
     padding: 10px;
@@ -26,7 +29,7 @@
   }
   
   .footer-links1{
-    margin-top: 55px;
+    margin-top: 50px;
     list-style: none;
     margin-left: 150px;
   }
@@ -46,5 +49,10 @@
   .footer-links{
       margin-top: 15px;
       font-size: 23px;      
+  }
+
+  .footer-links:hover{
+    color: rgb(234, 223, 223);
+    cursor: pointer;
   }
   
