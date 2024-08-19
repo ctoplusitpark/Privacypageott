@@ -1,0 +1,50 @@
+
+/* ------------FOOTER PAGE CSS---------------------  */
+.Footer{
+    display: flex;
+    background-color: rgb(43, 41, 41);
+    color: honeydew;
+    padding: 20px;
+  }
+  
+  .footer-appName{
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font:bold  
+  }
+  .footer-c{
+    padding-left: 20px;
+    font-size:20px
+  }
+  
+  .footer-about{
+    padding-left: 20px;
+    width: 500px;
+    /* text- */
+  }
+  
+  .footer-links1{
+    margin-top: 55px;
+    list-style: none;
+    margin-left: 150px;
+  }
+  
+  .footer-links2{
+    margin-top: 50px;
+    list-style: none;
+    margin-left: 120px;
+  }
+  .footer-links3{
+    margin-top: 50px;
+    list-style: none;
+    margin-left: 150px;
+    padding-bottom:20px;
+  }
+  
+  .footer-links{
+      margin-top: 15px;
+      font-size: 23px;      
+  }
+  
