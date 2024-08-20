@@ -1,0 +1,124 @@
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.hero-container{
+    background: url('../assets/images/policy1.jpeg') center center/cover
+    no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(90, 89, 89, 0.785);   
+    object-fit: contain;
+}
+
+.hero-container > h1{
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+}
+
+.hero-container > p{
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero-container :hover{
+    color: rgb(207, 205, 205);
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container > h1{
+        font-size: 70px;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .hero-container > h1{
+        font-size: 50px;
+        margin-top: -100px;
+    }
+
+    .hero-container > p{
+        font-size: 30px;
+    }
+   
+}
+
+
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+      flex: 0 0 calc(33.33% - 20px);
+      max-width: calc(33.33% - 20px);
+      width: 100%;
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transform: .3s;
+      border: 2px solid transparent;
+}
+.card:hover{
+    border-color: black;
+}
+
+@media(max-width: 969px){
+    section{
+        padding: 20px 0px;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .card{
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media(max-width: 600px){
+   
+    .card{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
