@@ -1,0 +1,54 @@
+/* src/components/Navbar.css */
+.navbar {
+    background: #333;
+    padding: 1rem;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .desktop-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .desktop-menu li {
+    font-weight: bold;
+  }
+  
+  .desktop-menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  @media(max-width: 600px) {
+    .desktop-menu {
+      display: none;
+    }
+  
+    .desktop-menu.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu-button {
+      display: block;
+    }
+  }
+  
