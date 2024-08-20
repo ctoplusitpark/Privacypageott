@@ -1,0 +1,96 @@
+
+/* ------------FOOTER PAGE CSS---------------------  */
+.Footer{
+  display: flex;
+  background-color: rgb(43, 41, 41);
+  color: honeydew;
+  padding: 20px;
+}
+.Footer a{
+  color:honeydew;
+  text-decoration: none;
+}
+.footer-appName{
+  font-size: 35px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  font:bold  
+}
+.footer-c{
+  padding-left: 20px;
+  font-size:20px
+}
+
+.footer-about{
+  padding-left: 20px;
+  width: 500px;
+  /* text- */
+}
+
+.footer-links1{
+  margin-top: 50px;
+  list-style: none;
+  margin-left: 150px;
+}
+
+.footer-links2{
+  margin-top: 50px;
+  list-style: none;
+  margin-left: 120px;
+}
+.footer-links3{
+  margin-top: 50px;
+  list-style: none;
+  margin-left: 150px;
+  padding-bottom:20px;
+}
+
+.footer-links{
+    margin-top: 15px;
+    font-size: 23px;      
+}
+
+.footer-links:hover{
+  color: rgb(234, 223, 223);
+  cursor: pointer;
+}
+
+@media (max-width: 520px) {
+  .Footer{
+    display: block;
+  }
+  .footer-appName {
+    font-size: 25px;
+  }
+
+  .footer-c {
+    font-size: 15px;
+  }
+
+  .footer-about{
+
+    font-size: 14px;
+    padding-top: 15px;
+  }
+
+  .footer-links2{
+    margin-left: 0;
+  }
+  .footer-links1{
+    margin-left: 0;
+  }
+  
+  .footer-links3{
+    margin-left: 0px;
+  }
+
+  .footer-links {
+    font-size: 18px;
+  }
+
+  .footer-about {
+    width: 300px;
+    margin-left: 15px;
+  }
+}
