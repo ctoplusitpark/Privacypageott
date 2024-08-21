@@ -1,7 +1,6 @@
-
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
+// import Home from './Pages/Home';
 import Policies from './Pages/Policies';
 import RefundPolicy from './Pages/RefundPolicy';
 import PrivacyPolicy from './Pages/PrivacyPolicy';
@@ -15,6 +14,7 @@ function App() {
     <Router>
     <Navbar />
     <Routes>
+    {/* <Route path="/" element={<Home />} /> */}
       <Route path="/policies" element={<Policies />} />
       <Route path="/refund-policy" element={<RefundPolicy />} />
       <Route path="/privacy-policy" element={<PrivacyPolicy />} />
