@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './index.css';
 
-const Navbar = () => {
+const Navbar:React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {

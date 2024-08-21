@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PrivacyPolicy = () => {
+const PrivacyPolicy :React.FC = () => {
   return (
     <>
       <main style={{ padding: '1rem' }}>

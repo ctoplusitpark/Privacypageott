@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ChildProtection = () => {
+const ChildProtection: React.FC = () => {
   return (
     <>
       <main style={{ padding: '1rem' }}>

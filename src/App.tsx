@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 // import Home from './Pages/Home';
@@ -9,7 +10,7 @@ import ChildProtection from './Pages/ChildProtection';
 
 
 
-function App() {
+const App: React.FC  = () => {
   return (
     <Router>
     <Navbar />

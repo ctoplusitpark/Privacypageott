@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RefundPolicy = () => {
+const RefundPolicy:React.FC = () => {
   return (
     <>
       <main style={{ padding: '1rem' }}>

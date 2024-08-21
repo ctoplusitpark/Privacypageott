@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Policies = () => {
+const Policies: React.FC = () => {
   return (
     <>
       <main style={{ padding: '1rem' }}>
