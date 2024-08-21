@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React, { useState } from 'react';
 import './index.css';
 
@@ -12,6 +11,7 @@ const Navbar:React.FC = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
+        <h2>Indrajala</h2>
         <button className="menu-button" onClick={toggleMenu}>
           ☰
         </button>
@@ -23,6 +23,9 @@ const Navbar:React.FC = () => {
           <li><a href="/terms-of-condition">Terms of Condition</a></li>
           <li><a href="/child-protection">Child Protection</a></li>
         </ul>
+        <div className='search-box'>
+          <input type='text' placeholder='Search'/>
+        </div>
       </div>
     </nav>
   );

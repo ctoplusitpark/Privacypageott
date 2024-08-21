@@ -1,16 +1,24 @@
 import React from 'react';
+import './index.css';
 
 const PrivacyPolicy :React.FC = () => {
   return (
     <>
-      <main style={{ padding: '1rem' }}>
+      {/* <main style={{ padding: '1rem' }}>
         <h1 style={{ textAlign: 'center', marginBottom: '1rem', fontSize: 'calc(15px + 2vw)' }}>
         TERMS OF USAGE
         </h1>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
           <p style={{ margin: 0 }}>Time to Read: 3 Minutes Estimated</p>
           <p style={{ margin: 0 }}>Last Modified: 09th Aug 2024</p>
-        </div>
+        </div> */}
+        <main>
+          <h1>TERMS OF USAGE</h1>
+          <div className='info-container'>
+            <p>Time to Read: 3 Minutes Estimated</p>
+            <p>Last Modified: 09th Aug 2024</p>
+          </div>
+          <section className='term-condition'>
         <section>
           <h2>Change in Policy</h2>
           <p>
@@ -119,7 +127,7 @@ const PrivacyPolicy :React.FC = () => {
           Furthermore, users agree to indemnify and hold Indrajala Movie Makers LLP and its affiliated entities harmless from any claims or demands resulting from their breach of the terms of use, privacy policy, or any violations of applicable laws or third-party rights. This indemnification includes any reasonable legal fees incurred as a result of such claims. The company reserves the right to take necessary legal action against users who violate these terms, ensuring the integrity of the services offered. By using the site, users acknowledge their understanding and acceptance of these disclaimers and limitations of liability.
           </p>
           </section>
-
+          </section>
       </main>
     </>
   );

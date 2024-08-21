@@ -1,16 +1,25 @@
 import React from 'react';
+import './index.css';
+
 
 const RefundPolicy:React.FC = () => {
   return (
     <>
-      <main style={{ padding: '1rem' }}>
+      {/* <main style={{ padding: '1rem' }}>
         <h1 style={{ textAlign: 'center', marginBottom: '1rem', fontSize: 'calc(15px + 2vw)' }}>
         REFUND POLICY
         </h1>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
           <p style={{ margin: 0 }}>Time to Read: 3 Minutes Estimated</p>
           <p style={{ margin: 0 }}>Last Modified: 09th Aug 2024</p>
-        </div>
+        </div> */}
+        <main>
+          <h1>REFUND POLICY</h1>
+          <div className='info-container'>
+            <p>Time to Read: 3 Minutes Estimated</p>
+            <p>Last Modified: 09th Aug 2024</p>
+          </div>
+          <section className='refund-policy'>
         <section>
           <h2>About Our Refund Policy</h2>
           <p>
@@ -77,6 +86,7 @@ const RefundPolicy:React.FC = () => {
           Thank you for choosing Indrajala. We look forward to serving you with exceptional fantasy content that captivates and inspires!
           </p>
           </section>
+        </section>
         
       </main>
     </>

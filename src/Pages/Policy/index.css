@@ -1,0 +1,32 @@
+main{
+    padding: 1rem;
+    background-color: rgb(41, 38, 38);
+    }
+    
+    h1{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-size: calc(15px + 2vw);
+        color: white;
+    }
+    
+    .info-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        color: white;
+    
+    }
+    
+    .info-container p{
+        margin: 0;
+        color: white;
+    
+    }
+    
+    .policy{
+        color: white;
+    }
+    
+        
+    

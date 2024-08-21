@@ -1,6 +1,5 @@
-/* src/components/Navbar.css */
 .navbar {
-    background: #333;
+    background: #523f3f;
     padding: 1rem;
   }
   
@@ -8,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color:#fff
   }
   
   .desktop-menu {
@@ -25,6 +25,7 @@
   .desktop-menu li a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
   }
   
   .menu-button {
@@ -52,3 +53,24 @@
     }
   }
   
+  .search-box {
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+
+  .search-box input{
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200px;
+  }
+
+  .search-box input::placeholder{
+    color: #fff;
+  }

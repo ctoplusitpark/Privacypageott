@@ -1,16 +1,25 @@
 import React from 'react';
+import './index.css';
+
 
 const PrivacyPolicy:React.FC = () => {
   return (
     <>
-      <main style={{ padding: '1rem' }}>
+      {/* <main style={{ padding: '1rem' }}>
         <h1 style={{ textAlign: 'center', marginBottom: '1rem', fontSize: 'calc(15px + 2vw)' }}>
         DATA POLICY
         </h1>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
           <p style={{ margin: 0 }}>Time to Read: 3 Minutes Estimated</p>
           <p style={{ margin: 0 }}>Last Modified: 09th Aug 2024</p>
-        </div>
+        </div> */}
+        <main>
+          <h1>DATA POLICY</h1>
+          <div className='info-container'>
+            <p>Time to Read: 3 Minutes Estimated</p>
+            <p>Last Modified: 09th Aug 2024</p>
+          </div>
+          <section className='privacy-policy'>
         <section>
           <h2>About Our Policy</h2>
           <p>
@@ -155,7 +164,7 @@ const PrivacyPolicy:React.FC = () => {
           It is also crucial to understand that information collected by third parties, such as advertisers or external service providers, may not benefit from the same level of security as the data you submit directly to us. We are not responsible for the security of such third-party information, nor can we control their security practices. Therefore, we encourage users to exercise caution when sharing personal information, especially when engaging with third-party services or platforms. Our commitment to your privacy and security remains a top priority, and we continuously evaluate and enhance our security measures to adapt to evolving threats in the digital landscape.
           </p>
           </section>
-
+        </section>
         
       </main>
     </>

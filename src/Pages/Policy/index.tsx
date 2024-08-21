@@ -1,16 +1,25 @@
 import React from 'react';
+import './index.css';
+
 
 const Policies: React.FC = () => {
   return (
     <>
-      <main style={{ padding: '1rem' }}>
+      {/* <main style={{ padding: '1rem' }}>
         <h1 style={{ textAlign: 'center', marginBottom: '1rem', fontSize: 'calc(15px + 2vw)' }}>
           BRIEF ON POLICIES
         </h1>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
           <p style={{ margin: 0 }}>Time to Read: 3 Minutes Estimated</p>
           <p style={{ margin: 0 }}>Last Modified: 09th Aug 2024</p>
-        </div>
+        </div> */}
+        <main>
+          <h1>BRIEF ON POLICIES</h1>
+          <div className='info-container'>
+            <p>Time to Read: 3 Minutes Estimated</p>
+            <p>Last Modified: 09th Aug 2024</p>
+          </div>
+          <section className='policy'>
         <section>
           <h2>About</h2>
           <p>
@@ -39,6 +48,7 @@ const Policies: React.FC = () => {
           The table outlining the various points of contact in the policies serves to guide users on whom to reach out to for specific actions or inquiries, ensuring effective communication and efficient resolution of issues with Indrajala LLP's services. Each contact is designated for particular purposes, allowing users to quickly identify the appropriate person or department for their concerns, such as customer support, technical assistance, data protection inquiries, and policy-related questions. By specifying the actions users should take when contacting each point of contact, the table enhances the user experience and promotes transparency and accountability within the organization. This clear delineation of roles not only improves communication efficiency but also assures users that their concerns will be directed to the right personnel for quicker resolutions, ultimately demonstrating Indrajala LLP's commitment to customer service and user satisfaction.
           </p>
 
+          </section>
           </section>
         
       </main>

@@ -1,16 +1,24 @@
 import React from 'react';
+import './index.css';
 
 const ChildProtection: React.FC = () => {
   return (
     <>
-      <main style={{ padding: '1rem' }}>
+      {/* <main style={{ padding: '1rem', background: ''}}>
         <h1 style={{ textAlign: 'center', marginBottom: '1rem', fontSize: 'calc(15px + 2vw)' }}>
         CHILD PROTECTION
         </h1>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem' }}>
           <p style={{ margin: 0 }}>Time to Read: 3 Minutes Estimated</p>
           <p style={{ margin: 0 }}>Last Modified: 09th Aug 2024</p>
-        </div>
+        </div> */}
+        <main>
+          <h1>CHILD PROTECTION</h1>
+          <div className='info-container'>
+            <p>Time to Read: 3 Minutes Estimated</p>
+            <p>Last Modified: 09th Aug 2024</p>
+          </div>
+          <section className='child'>
         <section>
           <h2>About Our Policy</h2>
           <p>
@@ -37,7 +45,7 @@ const ChildProtection: React.FC = () => {
           </p>
 
           </section>
-        
+          </section>
       </main>
     </>
   );
