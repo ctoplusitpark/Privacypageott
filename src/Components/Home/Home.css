@@ -6,8 +6,9 @@ img {
     z-index: -1;
 }
 .hero-container{
-    background: url('../assets/images/policy1.jpeg') center center/cover
-    no-repeat;
+        /* background: url('../assets/images/policy1.jpeg') center center/cover
+        no-repeat; */
+        background: url('../Home/policy1.jpeg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -77,6 +78,12 @@ section{
     align-items: center;
 }
 
+/* h2{
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+} */
 .cards{
     display: flex;
     flex-wrap: wrap;
