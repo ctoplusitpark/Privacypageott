@@ -10,12 +10,14 @@ const Navbar:React.FC = () => {
 
   return (
     <nav className="navbar">
-      <div className="nav-container">
-        <h2>Indrajala</h2>
-        <button className="menu-button" onClick={toggleMenu}>
-          ☰
-        </button>
-        <ul className={`desktop-menu ${isOpen ? 'open' : ''}`}>
+      <div className="logo">Inderjala</div>
+      <input type="checkbox" 
+        id="toggle-menu"
+        checked={isOpen} 
+        onChange={toggleMenu} 
+        style={{ display: 'none' }} />
+        <label htmlFor="toggle-menu" className="hamburger">&#9776;</label>
+        <ul className="menu">
           <li><a href="/">Home</a></li>
           <li><a href="/policies">Policies</a></li>
           <li><a href="/refund-policy">Refund Policy</a></li>
@@ -26,7 +28,6 @@ const Navbar:React.FC = () => {
         <div className='search-box'>
           <input type='text' placeholder='Search'/>
         </div>
-      </div>
     </nav>
   );
 };
