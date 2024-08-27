@@ -7,6 +7,7 @@ import Refund from './Pages/Refund';
 import Privacy from './Pages/Privacy';
 import Terms from './Pages/Terms';
 import Child from './Pages/Child';
+import Footer from './Components/Footer/Footer.js'
 
 
 const App = () => {
