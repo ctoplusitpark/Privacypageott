@@ -1,7 +1,7 @@
 
-import '../App.css'
 import { Button } from 'react-bootstrap'
-import '../Components/Home.css'
+import "./Home.css"
+
 
 
 const Home = () => {
@@ -30,15 +30,12 @@ const Home = () => {
                 <h3 style={{textAlign:'center'}}>Data & Privacy Policy</h3>
                     <Button variant="primary">Click Here</Button>
                 </div>
-            </div>
 
-            <div className='cards'>
                 <div className='card'>
                 <h3 style={{textAlign:'center'}}>Age Restrictions</h3>
                     <Button variant="primary">Click Here</Button>
-
                 </div>
-                
+
                 <div className='card'>
                 <h3 style={{textAlign:'center'}}>Content Removal</h3>
                     <Button variant="primary">Click Here</Button>
@@ -50,19 +47,18 @@ const Home = () => {
                     <Button variant="primary">Click Here</Button>
 
                 </div>
-            </div>
 
-            <div className='cards'>
                 <div className='card'>
                 <h3 style={{textAlign:'center'}}>Broken links</h3>
                     <Button variant="primary">Click Here</Button>
                 </div>
+
                 <div className='card'>
                 <h3 style={{textAlign:'center'}}>Cookie Policy</h3>
-                    <Button variant="primary" href='/Privacy'>Click Here</Button>
+                    <Button variant="primary" href='/PrivacyPolicy'>Click Here</Button>
 
                 </div>
-                
+
                 <div className='card'>
                 <h3 style={{textAlign:'center'}}>Subscription Policy</h3>
                     <Button className='btn' href='/Policies'>Click Here</Button>
@@ -83,16 +79,20 @@ const Home = () => {
                     <Button className='btn' href='/Policies'>Click Here</Button>
                 </div>
 
-                <div className='card' style={{marginLeft:'140px'}}>
+                <div className='card' >
                 <h3 style={{textAlign:'center'}}>User Conduct</h3>
                     <Button className='btn' href='/Policies'>Click Here</Button>
                 </div>
 
-                <div className='card' style={{marginRight:'140px'}}>
+                <div className='card' >
                 <h3 style={{textAlign:'center'}}>Contacts</h3>
                     <Button className='btn' href='/Policies'>Click Here</Button>
                 </div>
+
+                
             </div>
+
+         
 
            </div>
         </section>
